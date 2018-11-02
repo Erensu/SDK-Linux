@@ -1,0 +1,13 @@
+%YAML:1.0
+numKeyframes: 5
+numImuFrames: 3
+ceres_options:
+   minIterations: 3
+   maxIterations: 4
+   timeLimit: 3.5000000000000003e-02
+detection_options:
+   threshold: 30.
+   octaves: 0
+   maxNoKeypoints: 100
+imageDelay: 0.
+displayImages: true

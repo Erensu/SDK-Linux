@@ -1,0 +1,28 @@
+{
+    "debug": {
+        "algorithm": 1
+    },
+    "running": {
+        "log": 0,
+        "type": 1,
+        "leftcfg": "",
+        "rightcfg": "",
+        "generalcfg": "generalConfig.yaml",
+        "algorithm": {
+            "threadCount": 1,
+            "slam": {
+                "mode": 0
+            },
+            "Detection": {
+                "open": false,
+                "cfg": "Stereoeuroc_xiaotu_N1.yaml",
+                "params": {
+                    "freq": 80,
+                    "hasmap": true,
+                    "saveoctomap": false,
+                    "useoctomap": true
+                }
+            }
+        }
+    }
+}
